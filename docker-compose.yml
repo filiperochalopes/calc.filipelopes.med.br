@@ -1,0 +1,11 @@
+version: "3"
+services:
+  flaskapp:
+    container_name: calc_filipelopesmedbr_flaskapp
+    build:
+      context: ./flaskapp
+      dockerfile: Dockerfile
+    volumes:
+      - ./flaskapp:/app
+    ports:
+      - "${FLASKAPP_PORT}:5000"
