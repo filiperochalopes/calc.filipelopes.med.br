@@ -1,6 +1,8 @@
 # syntax=docker/dockerfile:1
 
 FROM python:3.8-slim-buster
+ENV PYTHONUNBUFFERED=1
+ENV PYTHONDONTWRITEBYTECODE=1
 
 WORKDIR /app
 
@@ -13,4 +15,4 @@ ENV FLASK_APP=main.py
 ENV FLASK_ENV=development
 
 # CMD [ "python3", "-m" , "flask", "run", "--host=0.0.0.0", "--port=5000"]
-CMD [ "python", "main.py"]
+CMD [ "gunicorn", "--bind", "0.0.0.0:5000", "manage:app"]
