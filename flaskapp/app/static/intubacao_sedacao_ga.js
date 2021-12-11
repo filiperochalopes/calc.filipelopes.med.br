@@ -117,3 +117,8 @@ $(document).ready(function () {
     changeDoses(e.target.value);
   });
 });
+
+/**
+ * Doses de infusão
+ * TODO Primeiro eu calculo quantas ampolas para o peso do paciente, depois coloco numa ampola de 20ml
+ */

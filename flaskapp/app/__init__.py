@@ -38,6 +38,9 @@ class StatusRecord(db.Model):
 
 
 @app.route('/')
-def hello_world():
-    # return 'Hello, this is calc.filipelopes.med.br a flask microservice'
+def index():
     return render_template('intubacao_sedacao_ga.html')
+
+@app.route('/doses-pediatricas')
+def doses_pediatricas():
+    return render_template('doses_pediatricas.html')
