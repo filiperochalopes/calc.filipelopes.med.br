@@ -1,0 +1,20 @@
+{% extends 'base.html' %} {% block title %}Trechos de Exames - {% endblock
+%} {% block content %}
+<div class="container">
+    <section>
+        <h2>Exame físico Emergência, paciente sintomático respiratório</h2>
+        <textarea class="paragraph_to_copy" id="exame_fisico_emergencia">Bom estado geral, lúcido e orientado em tempo e em espaço, glasgow 15, anictério e acianótico. Aparelho respiratório: Expansibilidade preservada, sem sinais de esforço respiratório, murmúrios vesiculares bem distribuídos, sem ruídos adventícios. Extremidades bem perfundidas. SpO2 98% FC 74
+        </textarea>
+        <button class="copy_to_clipboard" data-id="exame_fisico_emergencia">Copiar</button>
+    </section>
+    <section>
+        <h2>HMA H3N2 (febre)</h2>
+        <textarea class="paragraph_to_copy" id="hma_h3n2">Paciente queixa-se de sintomas gripais (coriza, dor de garganta, mialgia, astenia, febre não aferida, tosse e cefaleia) há 1 dia. Nega sangramentos, dispneia e outras queixas.
+        </textarea>
+        <button class="copy_to_clipboard" data-id="hma_h3n2" onclick="copyToClipboard">Copiar</button>
+    </section>
+    </section>
+</div>
+{% endblock %} {% block scripts %}
+<script src="/static/js/trechos.js"></script>
+{% endblock %}
