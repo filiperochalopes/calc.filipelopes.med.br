@@ -15,7 +15,7 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 
 db = SQLAlchemy(app)
 migrate = Migrate(app, db)
-Scss(app, static_dir='app/static', asset_dir='app/assets/scss')
+Scss(app, static_dir='app/static/css', asset_dir='app/assets/scss')
 
 class Service(db.Model):
     __tablename__ = 'services'
@@ -38,6 +38,21 @@ class StatusRecord(db.Model):
 
 
 @app.route('/')
-def hello_world():
-    # return 'Hello, this is calc.filipelopes.med.br a flask microservice'
+def index():
     return render_template('intubacao_sedacao_ga.html')
+
+@app.route('/intubacao')
+def intubacao():
+    return render_template('intubacao_sedacao_ga.html')
+
+@app.route('/doses-pediatricas')
+def doses_pediatricas():
+    return render_template('doses_pediatricas.html')
+
+@app.route('/5h5t')
+def aesp():
+    return render_template('5h5t.html')
+
+@app.route('/trechos-exame')
+def trechos():
+    return render_template('trechos.html')
