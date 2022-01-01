@@ -3,7 +3,6 @@ const copyToClipboardButtons = document.querySelectorAll(".copy_to_clipboard")
 
 // Botões de copiar para área de transferência
 function copyToClipboard(e) {
-    console.log("oi")
   /* Get the text field */
   var copyText = document.getElementById(e.target.dataset.id);
 

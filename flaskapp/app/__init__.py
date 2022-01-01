@@ -49,6 +49,10 @@ def intubacao():
 def doses_pediatricas():
     return render_template('doses_pediatricas.html')
 
+@app.route('/5h5t')
+def aesp():
+    return render_template('5h5t.html')
+
 @app.route('/trechos-exame')
 def trechos():
     return render_template('trechos.html')

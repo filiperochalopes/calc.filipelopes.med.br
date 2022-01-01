@@ -1,0 +1,65 @@
+{% extends 'base.html' %} {% block title %}Trechos de Exames - {% endblock
+%} {% block content %}
+<div class="container">
+    <section>
+        <h2>AESP</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Causa</th>
+                    <th>Tratamento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>H</strong>ipovolemia</td>
+                    <td>Volume</td>
+                </tr>
+                <tr>
+                    <td><strong>H</strong>ipóxia</td>
+                    <td>Oxigênio (intubação orotraqueal)</td>
+                </tr>
+                <tr>
+                    <td><strong>H</strong>ipo/hipercalemia</td>
+                    <td>Oxigênio (intubação orotraqueal)</td>
+                </tr>
+                <tr>
+                    <td><strong>H+</strong> Acidose metabólica</td>
+                    <td>Bicarbonato de sódio 1 meq/kg >> NaCa2 %8,4 (1 mEq/ml) 100ml + 400 de SF = (0,2mEq/ml)</td>
+                </tr>
+                <tr>
+                    <td><strong>H</strong>ipotermia</td>
+                    <td>Aquecer</td>
+                </tr>
+                <tr>
+                    <td><strong>T</strong>amponamento cardíaco</td>
+                    <td>Punção pericárdica (Marfan)</td>
+                </tr>
+                <tr>
+                    <td><strong>T</strong>EP (Trombo Embolismo Pulmonar)</td>
+                    <td>Volume + reversão da PCR</td>
+                </tr>
+                <tr>
+                    <td><strong>T</strong>rombose coronariana IAM</td>
+                    <td>Volume + reversão da PCR</td>
+                </tr>
+                <tr>
+                    <td><strong>T</strong>rauma/Tensão no tórax/Pneumotórax hipertensivo</td>
+                    <td>Punção torácica de alívio</td>
+                </tr>
+                <tr>
+                    <td><strong>T</strong>óxicos/drogas</td>
+                    <td>Antagonista específico:
+                        <ul>
+                            <li>Benzodiazepínicos: Flumazenil (colocar dose)</li>
+                            <li>Cocaína (dor torácica): labetalol</li>
+                            <li>Rocurônio: sugamadex</li>
+                            <li>https://guiafarmaceutico.hsl.org.br/informacoes-de-apoio/intoxicacoes-e-antidotos</li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</div>
+{% endblock %}
