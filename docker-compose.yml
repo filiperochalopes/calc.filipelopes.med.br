@@ -2,6 +2,7 @@ version: "3"
 services:
   flaskapp:
     container_name: calc_filipelopesmedbr_flaskapp
+    restart: always
     build:
       context: ./flaskapp
       dockerfile: Dockerfile
