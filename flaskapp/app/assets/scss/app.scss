@@ -55,6 +55,12 @@ h3 {
     max-width: 960px;
 }
 
+.three-cols{
+    display: grid;
+    grid-template-columns: 30vw 30vw 30vw;
+    margin: 0 5vw;
+}
+
 section {
     > section {
         padding: 5px 20px;

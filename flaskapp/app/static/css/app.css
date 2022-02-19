@@ -36,9 +36,14 @@ h1, h2, h3 {
       width: 100%;
       max-width: 960px; }
 
-      section > section {
-        padding: 5px 20px;
-        background-color: #ccc; }
+      .three-cols {
+        display: grid;
+        grid-template-columns: 30vw 30vw 30vw;
+        margin: 0 5vw; }
+
+        section > section {
+          padding: 5px 20px;
+          background-color: #ccc; }
 
 textarea.paragraph_to_copy {
   display: inline;
