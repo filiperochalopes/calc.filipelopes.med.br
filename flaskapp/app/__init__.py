@@ -56,3 +56,7 @@ def aesp():
 @app.route('/trechos-exame')
 def trechos():
     return render_template('trechos.html')
+
+@app.route('/trechos-receita')
+def receituario():
+    return render_template('receituario.html')
