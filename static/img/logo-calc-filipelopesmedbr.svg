@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="75.167046mm"
+   height="84.194405mm"
+   viewBox="0 0 75.167046 84.194405"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.3 (0e150ed, 2023-07-21)"
+   sodipodi:docname="logo-calc-filipelopesmedbr.svg"
+   inkscape:export-filename="logo-docs-filipelopesmedbr.png"
+   inkscape:export-xdpi="154.46158"
+   inkscape:export-ydpi="154.46158"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showguides="true"
+     inkscape:zoom="0.76690176"
+     inkscape:cx="56.069763"
+     inkscape:cy="-35.858569"
+     inkscape:window-width="1920"
+     inkscape:window-height="950"
+     inkscape:window-x="0"
+     inkscape:window-y="522"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1">
+    <sodipodi:guide
+       position="-53.559571,290.66545"
+       orientation="1,0"
+       id="guide5"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="6.6199618,64.3705"
+       orientation="1,0"
+       id="guide8"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="28.322959,66.208296"
+       orientation="1,0"
+       id="guide9"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="14.184744,59.281707"
+       orientation="0,-1"
+       id="guide10"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="34.091064,80.737623"
+       orientation="0,-1"
+       id="guide11"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-59.051921,-18.978015)">
+    <path
+       id="rect1"
+       style="font-variation-settings:'wdth' 100, 'wght' 500;fill:#ffffff;stroke:#009605;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1"
+       d="M 59.551921,19.478015 V 102.67242 H 117.70353 L 133.71897,87.243641 V 19.478015 Z"
+       sodipodi:nodetypes="cccccc" />
+    <path
+       id="rect2"
+       style="font-variation-settings:'wdth' 100, 'wght' 500;fill:#009605;stroke-width:9.84798;stroke-linecap:round;stroke-linejoin:round"
+       d="M 77.377944,22.466021 H 87.412325 L 75.647502,44.064028 H 65.613121 Z"
+       sodipodi:nodetypes="ccccc" />
+    <rect
+       style="font-variation-settings:'wdth' 100, 'wght' 500;fill:#009605;stroke-width:12.8024;stroke-linecap:round;stroke-linejoin:round;fill-opacity:1"
+       id="rect4"
+       width="10.034382"
+       height="36.865448"
+       x="28.1399"
+       y="-127.61115"
+       transform="rotate(90)" />
+    <rect
+       style="font-variation-settings:'wdth' 100, 'wght' 500;fill:#b3b3b3;stroke-width:16.5961;stroke-linecap:round;stroke-linejoin:round"
+       id="rect5"
+       width="10.034382"
+       height="61.951405"
+       x="46.681694"
+       y="-127.61115"
+       transform="rotate(90)" />
+    <rect
+       style="font-variation-settings:'wdth' 100, 'wght' 500;fill:#b3b3b3;stroke-width:16.5961;stroke-linecap:round;stroke-linejoin:round"
+       id="rect6"
+       width="10.034382"
+       height="61.951405"
+       x="65.346069"
+       y="-127.61115"
+       transform="rotate(90)" />
+    <rect
+       style="font-variation-settings:'wdth' 100, 'wght' 500;fill:#b3b3b3;fill-opacity:1;stroke-width:15.1887;stroke-linecap:round;stroke-linejoin:round"
+       id="rect7"
+       width="10.034382"
+       height="51.889469"
+       x="84.022675"
+       y="-117.54922"
+       transform="rotate(90)" />
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+{% extends 'base.html' %} {% block title %}Trechos de Exames - {% endblock %} {%
+block content %}
+<div class="container">
+  <section>
+    <h1>Calculadoras</h1>
+    <input type="search" placeholder="Busca em Breve" disabled />
+    <ul>
+      {% for item in item_list %}
+      <li><a href={{item.url}}>{{item.name}}</a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section>
+    <h1>API</h1>
+    <p>
+      Temos algumas páginas de uso de calculadoras imediatas, mas o maior parte
+      delas é para uso via API, acesse as documentações
+    </p>
+    <ul>
+      <li><a href="/docs">OpenAPI /docs</a></li>
+      <li><a href="/redoc">ReDoc /redoc</a></li>
+    </ul>
+  </section>
+</div>
+{% endblock %}

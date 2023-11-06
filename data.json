@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Cálculo de idade gestacional (API)",
+        "url": "/api/v1/docs"
+    },
+    {
+        "name": "Drogas de Intubação - Drogas Padrão GA",
+        "url": "/drogas-intubacao-ga"
+    },
+    {
+        "name": "Tabela de Emergência em Pediatria",
+        "url": "/static/ficha_parada_ped_pals_2021.xlsx"
+    },
+    {
+        "name": "Doses Pediátricas",
+        "url": "/doses-pediatricas"
+    },
+    {
+        "name": "Causas de Parada em ritmo não chocável (5H5T)",
+        "url": "/5h5t"
+    },
+    {
+        "name": "Trechos de Exames",
+        "url": "/trechos-exames"
+    },
+    {
+        "name": "Trechos de Receitas",
+        "url": "/trechos-receitas"
+    },
+    {
+        "name": "HOMA IR (API)",
+        "url": "/api/v1/docs"
+    }
+]
