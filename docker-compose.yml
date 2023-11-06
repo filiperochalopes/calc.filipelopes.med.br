@@ -8,8 +8,6 @@ services:
       dockerfile: Dockerfile
     volumes:
       - .:/app
-    ports:
-      - 8005:8000
   nginx:
     container_name: filipelopesmedbr_calc_nginx
     restart: always
