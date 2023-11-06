@@ -1,19 +1,16 @@
 # syntax=docker/dockerfile:1
 
-FROM python:3.8-slim-buster
+FROM python:3.12-alpine
 ENV PYTHONUNBUFFERED=1
 ENV PYTHONDONTWRITEBYTECODE=1
 
 WORKDIR /app
 
 COPY requirements.txt requirements.txt
-RUN pip3 install -r requirements.txt
+RUN pip3 install --user -r requirements.txt
 
 COPY . .
 
-ENV FLASK_APP=main.py
-ENV FLASK_ENV=development
+EXPOSE 8000
 
-EXPOSE 5000
-
-CMD [ "gunicorn", "--workers", "1" ,"--bind", ":5000", "--proxy-protocol", "--reload", "--log-level", "debug","wsgi:app"]
+CMD [ "python", "-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--reload" ]

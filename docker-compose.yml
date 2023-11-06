@@ -1,24 +1,24 @@
 version: "3"
 services:
-  flaskapp:
-    container_name: calc_filipelopesmedbr_flaskapp
-    restart: always
-    build:
-      context: ./flaskapp
-      dockerfile: Dockerfile
-    volumes:
-      - ./flaskapp:/app
-    ports:
-      - "${FLASKAPP_PORT}:5000"
-  nginx:
-    container_name: calc_filipelopesmedbr_nginx
+  app:
+    container_name: filipelopesmedbr_calc_app
     restart: always
     build:
       context: .
-      dockerfile: Dockerfile.nginx
+      dockerfile: Dockerfile
     volumes:
-      - ./nginx/default.conf:/etc/nginx/conf.d/default.conf
+      - .:/app
     ports:
-      - "${APP_PORT}:80"
+      - 8005:8000
+  nginx:
+    container_name: filipelopesmedbr_calc_nginx
+    restart: always
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+    ports:
+      - ${APP_PORT}:80
     depends_on:
-      - flaskapp
+      - app

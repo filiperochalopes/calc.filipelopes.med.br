@@ -38,6 +38,7 @@ async def post_utils_marcos_gravidez(dum:datetime.date = None, data_exame:dateti
         delta_idade_gestacional_dum = datetime.date.today() - dum
         idade_gestacional_dum = IdadeGestacional(semana=delta_idade_gestacional_dum.days//7, dia=delta_idade_gestacional_dum.days%7)
         idade_gestacional_calculada = idade_gestacional_dum
+        dum_calculada = dum
     # Verifica se tem dados de ultrassonografia
     if data_exame is not None and idade_gestacional is not None:
         dum_exame = data_exame - datetime.timedelta(days=idade_gestacional.total_dias())

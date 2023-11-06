@@ -1,0 +1,20 @@
+name: CD [ PRODUCTION ]
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    name: Clone
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup SSH
+        uses: MrSquaare/ssh-setup-action@v3
+        with:
+          host: forest.orango.io
+          port: 22022
+          private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+      - name: Pull repository
+        run: git pull
